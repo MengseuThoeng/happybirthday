@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Include Tailwind CSS for animations -->
+    <link href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" rel="stylesheet">
+    <style>
+        .rotate {
+            animation: rotate 5s linear infinite;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 flex items-center justify-center h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-md text-center animate__animated animate__pulse animate__infinite">
+        <h1 class="text-4xl font-bold mb-4 text-gray-800">Happy Birthday to you!</h1>
+        <p class="text-lg text-gray-700">Dear friend,</p>
+        <p class="text-lg text-gray-700">Wishing you a day filled with joy, laughter, and all the things that make you happiest. May this year bring you countless blessings and wonderful surprises!</p>
+        <p class="text-lg text-gray-700 mt-4">With warmest wishes,</p>
+        <p class="text-lg font-bold text-indigo-600">Sokny 💕💕💕</p>
+    </div>
+</body>
+</html>
